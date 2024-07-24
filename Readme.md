@@ -19,10 +19,10 @@ This project simulates the operations of a container terminal using SimPy, a pro
 ## Installation
 
 - 1. Clone this repository:
-- git clone https://github.com/anuragsingh1409/Container-Terminal-Simulation-Simpy.git
-- cd container-terminal-simulation
-- 2. Install the required library:
-- pip install simpy
+- 2. git clone https://github.com/anuragsingh1409/Container-Terminal-Simulation-Simpy.git
+- 3. cd container-terminal-simulation
+- 4. Install the required library:
+- 5. pip install simpy
 
 ## Usage
 
@@ -49,15 +49,15 @@ config = {
 
 - The simulation will output detailed logs of events and summary statistics upon completion.
 
-# simulation_time: Total simulation time (in minutes)
-# num_berths: Number of available berths
-# num_quay_cranes: Number of quay cranes
-# num_trucks: Number of trucks for container transportation
-# mean_inter_arrival_time: Average time between vessel arrivals (in minutes)
-# min_containers_per_vessel: Minimum number of containers per vessel
-# max_containers_per_vessel: Maximum number of containers per vessel
-# crane_move_time: Time taken by a crane to move one container (in minutes)
-# truck_transport_time: Time taken by a truck to transport a container and # return (in minutes)
+- simulation_time: Total simulation time (in minutes)
+- num_berths: Number of available berths
+- num_quay_cranes: Number of quay cranes
+- num_trucks: Number of trucks for container transportation
+- mean_inter_arrival_time: Average time between vessel arrivals (in minutes)
+- min_containers_per_vessel: Minimum number of containers per vessel
+- max_containers_per_vessel: Maximum number of containers per vessel
+- crane_move_time: Time taken by a crane to move one container (in minutes)
+- truck_transport_time: Time taken by a truck to transport a container and # return (in minutes)
 
 ## Output
 
